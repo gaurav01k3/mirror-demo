@@ -6,37 +6,40 @@ import Login from "./components/Login";
 import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
 import { useEffect } from "react";
 
-const Routing = () => {
-  const history = useHistory();
-//   useEffect(() => {
-//     const token = localStorage.getItem("jwt");
-//     if (token) {
-//     } else {
-//       history.push("/login");
-//     }
-//   }, []);
+// const Routing = () => {
+//   const history = useHistory();
+// //   useEffect(() => {
+// //     const token = localStorage.getItem("jwt");
+// //     if (token) {
+// //     } else {
+// //       history.push("/login");
+// //     }
+// //   }, []);
 
-  return (
-    <Switch>
-      <Route path="/">
-        <Header />
-      </Route>
-//       <Route exact path="/signup">
-//         <Signup />
+//   return (
+//     <Switch>
+//       <Route path="/">
+//         <Header />
 //       </Route>
-//       <Route exact path="/login">
-//         <Login />
-//       </Route>
-    </Switch>
-  );
-};
+// //       <Route exact path="/signup">
+// //         <Signup />
+// //       </Route>
+// //       <Route exact path="/login">
+// //         <Login />
+// //       </Route>
+//     </Switch>
+//   );
+// };
 
 function App() {
   return (
     <>
       {/* <Header /> */}
       <BrowserRouter>
-        <Routing />
+//         <Routing />
+      <Route path="/">
+        <Header />
+      </Route>
       </BrowserRouter>
     </>
   );
