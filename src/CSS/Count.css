@@ -1,0 +1,28 @@
+.count__wrapper {
+  width: 85%;
+  margin: 15rem auto 10rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.count__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  height: 20rem;
+  margin: 1rem;
+  /* border: 4px solid rgb(60, 193, 211); */
+  background-color: #2bbbe7;
+  text-align: center;
+  line-height: 100%;
+  box-shadow: 0 0 15px 2px black;
+}
+
+.count__itemText {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}

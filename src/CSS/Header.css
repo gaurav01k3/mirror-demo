@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #2bbbe7;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.navbar__logo {
+  font-size: 5rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__listItem {
+  margin-left: 1rem;
+}
+
+.navbar__listItem button {
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1054px) {
+  .navbar {
+    padding: 2rem;
+    position: static;
+  }
+  .navbar__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 4px solid; */
+  }
+  .navbar__listItem {
+    margin-top: 0.5rem;
+  }
+  .navbar__listItem button {
+    width: 100vw;
+    font-size: 1.5rem;
+  }
+}
