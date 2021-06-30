@@ -8,25 +8,25 @@ import { useEffect } from "react";
 
 const Routing = () => {
   const history = useHistory();
-//   useEffect(() => {
-//     const token = localStorage.getItem("jwt");
-//     if (token) {
-//     } else {
-//       history.push("/login");
-//     }
-//   }, []);
+  useEffect(() => {
+    const token = localStorage.getItem("jwt");
+    if (token) {
+    } else {
+      history.push("/login");
+    }
+  }, []);
 
   return (
     <Switch>
       <Route path="/">
         <Header />
       </Route>
-//       <Route exact path="/signup">
-//         <Signup />
-//       </Route>
-//       <Route exact path="/login">
-//         <Login />
-//       </Route>
+      <Route exact path="/signup">
+        <Signup />
+      </Route>
+      <Route exact path="/login">
+        <Login />
+      </Route>
     </Switch>
   );
 };
