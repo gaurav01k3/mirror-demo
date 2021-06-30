@@ -10,10 +10,10 @@ import Button from "@material-ui/core/Button";
 
 const Header = () => {
   const history = useHistory();
-  const deleteJwt = () => {
-    localStorage.clear("jwt");
-    history.push("/login");
-  };
+  // const deleteJwt = () => {
+  //   localStorage.clear("jwt");
+  //   history.push("/login");
+  // };
 
   return (
     <>
