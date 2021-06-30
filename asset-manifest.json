@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mirror-demo/static/css/main.5801ba7e.chunk.css",
+    "main.js": "/mirror-demo/static/js/main.a2390f4e.chunk.js",
+    "main.js.map": "/mirror-demo/static/js/main.a2390f4e.chunk.js.map",
+    "runtime-main.js": "/mirror-demo/static/js/runtime-main.413c7e43.js",
+    "runtime-main.js.map": "/mirror-demo/static/js/runtime-main.413c7e43.js.map",
+    "static/css/2.a1b4f227.chunk.css": "/mirror-demo/static/css/2.a1b4f227.chunk.css",
+    "static/js/2.d3ea03e8.chunk.js": "/mirror-demo/static/js/2.d3ea03e8.chunk.js",
+    "static/js/2.d3ea03e8.chunk.js.map": "/mirror-demo/static/js/2.d3ea03e8.chunk.js.map",
+    "static/js/3.09cf9540.chunk.js": "/mirror-demo/static/js/3.09cf9540.chunk.js",
+    "static/js/3.09cf9540.chunk.js.map": "/mirror-demo/static/js/3.09cf9540.chunk.js.map",
+    "index.html": "/mirror-demo/index.html",
+    "static/css/2.a1b4f227.chunk.css.map": "/mirror-demo/static/css/2.a1b4f227.chunk.css.map",
+    "static/css/main.5801ba7e.chunk.css.map": "/mirror-demo/static/css/main.5801ba7e.chunk.css.map",
+    "static/js/2.d3ea03e8.chunk.js.LICENSE.txt": "/mirror-demo/static/js/2.d3ea03e8.chunk.js.LICENSE.txt",
+    "static/media/upperImg.6843585f.svg": "/mirror-demo/static/media/upperImg.6843585f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.413c7e43.js",
+    "static/css/2.a1b4f227.chunk.css",
+    "static/js/2.d3ea03e8.chunk.js",
+    "static/css/main.5801ba7e.chunk.css",
+    "static/js/main.a2390f4e.chunk.js"
+  ]
+}
